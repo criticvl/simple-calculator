@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1280px) {
+    .calculator-div {
+        width: 24%;
+    }
+
+    * {
+        font-size: 3.2vw !important;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .calculator-div {
+        width: 60%;
+        border-radius: 2vw;
+        outline: none;
+    }
+
+    * {
+        font-size: 6vw !important;
+    }
+
+    .display {
+        box-sizing: border-box;
+        padding: 0 2%;
+    }
+
+    button {
+        width: 9vw;
+    }
+}
